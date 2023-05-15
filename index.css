@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(242, 242, 242);
+}
+
+header{
+    border: groove black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li{
+    display: inline;
+    margin-left: 50px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+section{
+    border: ridge black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 20px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 800px;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+}
+
+figure{
+    border-style: double;
+    border-width: 19px;
+    align-items: center;
+}
+
+figcaption{
+    border: outset black;
+    background-color: coral;
+    text-align: center;
+    padding: 5px;
+}
